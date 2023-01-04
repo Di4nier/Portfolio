@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="ico" href="../public/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style media="screen">
+    body { background: #fff; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; width: 100%; }
+    .error404{  max-width: 50%; margin: 1% auto; }
+    #image{ width: 80%;}
+    #image-div{ text-align: center;}
+    #titre{ font-size: 90%; text-align: center; }
+    #message{ text-align: center;}
+
+    .pass-reset{
+    position: relative;
+    padding: 1.3em 3em;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    border: 2px solid #ECEFF1;
+    background-color: #ECEFF1;
+    border-radius: 45px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.pass-reset:hover{
+    background-color: #3cdce7;
+    box-shadow: 0px 15px 20px #14d9e0a2;
+    color: #fff;
+    border: 2px solid #3cdce7;
+    transform: translateY(-7px);
+}
+
+.pass-reset:active{
+    transform: translateY(-1px);
+}
+
+  </style>
+  
+  <title>Page Not Found</title>
+  
+</head>
+<body>
+
+  <div class="error404">
+    <div id="titre">
+      <h1>OOoPSS...</h1>
+    </div>
+
+    <div id="image-div">
+        <img src="/Images/404.2.png" alt="404 NOT FOUND" id="image">
+    </div>
+
+    <div id="message">
+      <h2>Page Not Found</h2>
+      <p>La page que vous recherchez n'existe pas.</p>
+      <button class="pass-reset" onclick="HomePage()">Revenir a l'accueil</button>
+    </div>
+    
+  </div>
+
+
+    <script>
+      function HomePage() {
+          window.location.replace("/");
+      }
+    </script>
+
+  
+</body>
+</html>
