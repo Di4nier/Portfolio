@@ -1108,6 +1108,11 @@ section.vague ::before {
     cursor: crosshair;
 }
 
+.item:active {
+    transform: scale(1.5);
+    cursor: crosshair;
+}
+
 .item--1 {
     background: #2487b5;
     box-shadow: 0px 15px 20px #0c0d0d;
@@ -2543,6 +2548,31 @@ section.vague ::before {
     font-weight: 400;
     width: 100%;
     text-shadow: 5px 5px 0px #191919;
+}
+
+.heading-ap.regi-title{
+margin: auto;
+width: fit-content;
+}
+
+.regi-txt{
+    color: #fff;
+    margin: 2rem;
+    text-align: justify;
+    line-height:1.5rem;
+    font-style: italic;
+}
+
+.visitors{
+    position: absolute;
+    bottom: 3rem;
+    width: 100%;
+}
+
+.portfolio-bj.reg{
+    margin: auto;
+    width: fit-content;
+    margin-left: 45%;
 }
 
 
