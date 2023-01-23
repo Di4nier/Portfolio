@@ -1082,14 +1082,14 @@ section.vague ::before {
 
 .card {
     position: relative;
-    width: 700px;
+    width: 800px;
     height: 400px;
     color: white;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-auto-flow: column;
-    gap: 20px;
+    gap: 1rem;
     overflow: visible;
 }
 
@@ -1197,49 +1197,65 @@ section.vague ::before {
     margin-top: 30px;
 }
 
+.item--9 {
+    background: #F6820C;
+    box-shadow: 0px 15px 20px #0c0d0d;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#fbicon {
+    width: 80px;
+    margin-top: 30px;
+}
+
+.item--10 {
+    background: #125379;
+    box-shadow: 0px 15px 20px #0c0d0d;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#javaicon {
+    width: 80px;
+    margin-top: 30px;
+}
+
+.item--11 {
+    background: #0097D3;
+    box-shadow: 0px 15px 20px #0c0d0d;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#mysqlicon {
+    width: 100px;
+    margin-top: 30px;
+}
+
+
+.item--12 {
+    background: #336791;
+    box-shadow: 0px 15px 20px #0c0d0d;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#psqlicon {
+    width: 100px;
+    margin-top: 30px;
+}
+
+
 .text {
-    font-size: 30px;
+    font-size: 1.5rem;
     font-family: "Roboto";
     text-align: center;
     font-weight: 600;
-}
-
-.text--1 {
-    color: #fff;
-}
-
-.text--2 {
-    color: #fff;
-}
-
-.text--3 {
     color: #fff;
 
 }
 
-.text--4 {
-    color: #fff;
-}
-
-.text--5 {
-    color: #fff;
-}
-
-.text--6 {
-    color: #fff;
-}
-
-.text--7 {
-    color: #fff;
+.text--12{
+    font-size: 1rem;
 
 }
-
-.text--8 {
-    color: #fff;
-}
-
-
-
 
 
 
@@ -2796,7 +2812,7 @@ section.vague ::before {
 }
 
 #projlogo {
-    width: 10rem;
+    width: 7rem;
 }
 
 .componente-index-back--2 {
@@ -2920,7 +2936,7 @@ section.vague ::before {
 
 .componente--2:nth-child(4) .componente-fundo-imagem--2:before {
     transition-delay: 0.3s;
-    background-image: url("../Images/Ap/projetx.jpg");
+    background-image: url("../Images/Ap/tikker-back.jpg");
 }
 
 .componente--2:hover .componente-fundo-imagem--2:after {
