@@ -12,7 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 
 :root {
@@ -3812,10 +3812,13 @@ p.date {
 
 
 
+
+
+
 .stage-1{
     padding: 170px 100px 80px 100px;
     width: 100;
-    height: 100vh;
+    height: 60vh;
     overflow: visible;
     position: relative;
 }
@@ -3855,9 +3858,10 @@ p.date {
     font-weight: 500;
     font-family: "Roboto";
     text-shadow: 2px 2px 0px #191919;
-
-
 }
+
+
+
 
 .heading-stage-1 {
     margin: auto;
@@ -3868,8 +3872,14 @@ p.date {
     font-weight: 400;
     text-shadow: 5px 5px 0px #191919;
 }
+
 .stage-name-1{
+    position: relative;
+    justify-content: space-around;
     display: flex;
+    width: 70%;
+    margin: 5% auto;
+
 }
 
 #ixcyslogo{
@@ -3910,6 +3920,69 @@ p.date {
 }
 
 
+.stage1 {
+    position: relative;
+    padding: 1em 2em;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    border: 2px solid #fff;
+    background-color: #fff;
+    border-radius: 45px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    font-family: "Roboto";
+
+}
+
+.stage1:hover {
+    background-color: #0F9DE8;
+    box-shadow: 0px 15px 20px #145ea8;
+    color: #fff;
+    border: 2px solid #0F9DE8;
+    transform: translateY(-7px);
+}
+
+.stage1:active {
+    transform: translateY(-1px);
+}
+
+.stage2 {
+    position: relative;
+    padding: 1em 2em;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    border: 2px solid #fff;
+    background-color: #fff;
+    border-radius: 45px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    font-family: "Roboto";
+
+}
+
+.stage2:hover {
+    background-color: #0F9DE8;
+    box-shadow: 0px 15px 20px #145ea8;
+    color: #fff;
+    border: 2px solid #0F9DE8;
+    transform: translateY(-7px);
+}
+
+.stage2:active {
+    transform: translateY(-1px);
+}
+
+
 @media screen and (max-width : 1697px) {
     .stages {
         padding: 130px 100px 80px 100px;
@@ -3927,8 +4000,37 @@ p.date {
     }
 }
 
+/*////////////////////////////////////
+/*STAGE 1 PAGE*/
+/*///////////////////////////////////*/
 
+.stages1{
+    padding: 170px 100px 80px 100px;
+    width: 100;
+    height: 120vh;
+    overflow: visible;
+    position: relative;
+}
 
+.stages1 .container{
+    text-align: center;
+}
+
+.logoixcys{
+    width: 30%;
+    margin-top: 2rem;
+}
+
+.heading-stages1{
+    color: #fdfdfd;
+    font-size: 2rem;
+    font-family: "Tapestry", cursive;
+    line-height: 1.3;
+    font-weight: 400;
+    width: fit-content;
+    margin: 2rem auto;
+    text-shadow: 5px 5px 0px #191919;
+}
 
 
 /*////////////////////////////////////
