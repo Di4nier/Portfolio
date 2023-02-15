@@ -12,7 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 
 :root {
@@ -3727,7 +3727,7 @@ p.date {
 .stages{
     padding: 170px 100px 80px 100px;
     width: 100;
-    height: 100vh;
+    height: 120vh;
     overflow: visible;
     position: relative;
 }
@@ -3745,7 +3745,7 @@ p.date {
     margin: auto;
     color: #d8d8d8;
     font-family: "Roboto";
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 3rem auto;
     width: 90%;
     text-align: justify;
@@ -3787,7 +3787,7 @@ p.date {
 
 .heading-stages {
     color: #fdfdfd;
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: "Tapestry", cursive;
     line-height: 1.3;
     font-weight: 400;
@@ -4007,7 +4007,7 @@ p.date {
 .stages1{
     padding: 170px 100px 80px 100px;
     width: 100;
-    height: 120vh;
+    height: 230vh;
     overflow: visible;
     position: relative;
 }
@@ -4019,6 +4019,7 @@ p.date {
 .logoixcys{
     width: 30%;
     margin-top: 2rem;
+    filter: drop-shadow(8px 8px 4px #000);
 }
 
 .heading-stages1{
@@ -4031,6 +4032,60 @@ p.date {
     margin: 2rem auto;
     text-shadow: 5px 5px 0px #191919;
 }
+
+.containerbocket{
+    position: relative;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin: 2rem;
+}
+
+
+.logobocket{
+    border-radius: 50%;
+    box-shadow: 0px 15px 20px #0c0d0d;
+    width: 15%;
+}
+
+.stage1doc {
+    position: relative;
+    padding: 1em 2em;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    border: 2px solid #fff;
+    background-color: #fff;
+    border-radius: 45px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    font-family: "Roboto";
+
+}
+
+.stage1doc:hover {
+    background-color: #B5103E;
+    box-shadow: 0px 15px 20px #640c25;
+    color: #fff;
+    border: 2px solid #B5103E;
+    transform: translateY(-7px);
+}
+
+.stage1doc:active {
+    transform: translateY(-1px);
+}
+
+.rapportviewer{
+    margin: 2rem;
+    box-shadow: 0px 15px 20px #0c0d0d;
+
+}
+
 
 
 /*////////////////////////////////////
