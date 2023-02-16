@@ -93,6 +93,10 @@ div.portfolio span {
     color: #bbbbbb;
 }
 
+.burger-menu{
+    display: none;
+}
+
 nav ul {
     position: relative;
     display: flex;
@@ -4553,6 +4557,11 @@ footer ul {
         display: none;
     }
 
+    .burger-menu{
+        display: flex;
+        width: 3rem;
+    }
+
     .zone-vitrine {
         height: 130vh;
         padding: 10rem 1rem;
@@ -4573,16 +4582,33 @@ footer ul {
     }
 
     .vitrine-image {
-        margin-top: 20rem;
+        margin-top: 15rem;
+        margin-left: 1rem;
+        width: 20rem;
+    }
+
+    .index-cv{
+        margin-left: 4rem;
+    }
+
+    .sous-titre-index{
+        text-align: center;
+        border-right: 4px solid var(--profil-color);
+
     }
 
     .zone-vitrine .heading {
+        text-align: center;
         position: relative;
-        font-size: 4rem;
+        font-size: 4.5rem;
     }
 
     .scroll-downs {
         display: none;
+    }
+
+    .codelogo{
+        width: 15rem;
     }
 
     .mobile {
@@ -4590,12 +4616,13 @@ footer ul {
     }
 
     .emblem {
-        width: 110px;
+        width: 3rem;
         right: 1.5rem;
     }
 
     .invader {
         left: 0;
+        width: 5rem;
     }
 }
 
