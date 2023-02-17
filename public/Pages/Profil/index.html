@@ -29,6 +29,7 @@
             <span>Portfolio</span> - Villanueva Diego
         </div>
 
+        <button id="menuaction" class="burger-action"><img src="Images/burger.svg" alt="burgerimg" class="burger-menu" id="burgermenuimg"></button>
         <nav class="container">
             <div class="links">
                 <ul>
@@ -61,9 +62,22 @@
 
 
     <main>
+
+        <div id="menu" class="MenuClosed">
+            <div class="menucontainer">
+                <a class="menu-content" href="../../">Accueil</a>
+                <a class="menu-content" href="../Profil/" id="active">Profil</a>
+                <a class="menu-content" href="../BTSSIO/">BTS SIO</a>
+                <a class="menu-content" href="../AteliersPerso/">Projets</a>
+                <a class="menu-content" href="../VeilleTech/">Veille Technologique</a>
+                <a class="menu-content" href="../Stages/">Stages</a>
+                <a class="menu-content" href="../Contact/">Contact</a>
+            </div>
+        </div>
+
         <section class="memario">
             <div class="container">
-                <div>
+                <div class="memario-content">
                     <h3 class="sous-titre-profil">À Propos de Moi</h3>
                     <h1 class="heading">Étudiant en Informatique</h1>
                     <p class="textpro">
@@ -465,6 +479,8 @@
 
     <!-- -- JavaScripts -- -->
     <script src="../../Style/style.js"></script>
+    <script src="../../Services/MenuMobile.js"></script>
+
 </body>
 
 </html>

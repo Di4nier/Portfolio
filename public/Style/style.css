@@ -93,7 +93,7 @@ div.portfolio span {
     color: #bbbbbb;
 }
 
-.burger-action{
+.burger-action {
     position: relative;
     display: none;
     margin: 1em;
@@ -105,12 +105,12 @@ div.portfolio span {
     border: none;
 }
 
-.burger-menu{
+.burger-menu {
     position: relative;
     width: 2.5rem;
 }
 
-.MenuClosed{
+.MenuClosed {
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     background-color: #bbbbbb59;
@@ -122,7 +122,7 @@ div.portfolio span {
     transition: all 1s;
 }
 
-.MenuClosed.open{
+.MenuClosed.open {
     display: flex;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
@@ -133,7 +133,7 @@ div.portfolio span {
     z-index: 1;
 }
 
-.menucontainer{
+.menucontainer {
     display: none;
     position: relative;
     text-align: center;
@@ -142,7 +142,7 @@ div.portfolio span {
     margin: 10rem 3rem;
 }
 
-.menucontainer.open{
+.menucontainer.open {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -154,7 +154,7 @@ div.portfolio span {
 }
 
 
-.menu-content{
+.menu-content {
     font-size: 1.2rem;
     text-decoration: none;
     padding: 6px 15px;
@@ -167,7 +167,8 @@ div.portfolio span {
     /* background-color: #353535; */
 }
 
-.menu-content:hover, .menu-content:active{
+.menu-content:hover,
+.menu-content:active {
     background: #fff;
     color: black;
 }
@@ -670,6 +671,10 @@ section.vague ::before {
     height: calc(100vh - 180px);
     max-height: 600px;
     align-items: center;
+}
+
+.memario-content {
+    position: relative;
 }
 
 .textpro {
@@ -4615,6 +4620,19 @@ footer ul {
 
 @media(max-width : 574px) {
 
+    /*////////// NAVBAR MOBILE //////////*/
+
+    nav {
+        display: none;
+    }
+
+    .burger-action {
+        display: flex;
+    }
+
+
+    /*////////// ACCUEIL //////////*/
+
     section a span {
         font-size: 5px;
         font-style: oblique;
@@ -4629,13 +4647,6 @@ footer ul {
         top: -90px;
     }
 
-    nav {
-        display: none;
-    }
-
-    .burger-action{
-        display: flex;
-    }
 
     .zone-vitrine {
         height: 130vh;
@@ -4662,11 +4673,11 @@ footer ul {
         width: 20rem;
     }
 
-    .index-cv{
+    .index-cv {
         margin-left: 4rem;
     }
 
-    .sous-titre-index{
+    .sous-titre-index {
         text-align: center;
         border-right: 4px solid var(--profil-color);
 
@@ -4682,7 +4693,7 @@ footer ul {
         display: none;
     }
 
-    .codelogo{
+    .codelogo {
         width: 15rem;
     }
 
@@ -4699,6 +4710,184 @@ footer ul {
         left: 0;
         width: 5rem;
     }
+
+    /*////////// PROFIL //////////*/
+
+    .memario {
+        padding: 10rem 2rem 2rem;
+        height: 140vh;
+    }
+
+    .memario .container {
+        text-align: center;
+        position: relative;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .sous-titre-profil {
+        border-right: 4px solid var(--profil-color);
+    }
+
+    .textpro {
+        width: 100%;
+    }
+
+    .apropos-img {
+        margin-top: 10rem;
+        text-align: center;
+    }
+
+    #moi-profil {
+        width: 10rem;
+        top: 0;
+        left: 0;
+        margin-left: 10rem;
+    }
+
+
+
+    .me-parcours {
+        padding: 2rem;
+        position: relative;
+        height: 100vh;
+
+    }
+
+    .parcours-img {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-auto-flow: row;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .me-parcours .container {
+        display: block;
+        position: relative;
+        height: 100%;
+    }
+
+    .sous-titre-parcours {
+        position: relative;
+        border-left: 4px solid var(--profil-color);
+        width: 100%;
+        text-align: center;
+    }
+
+    .card-parcours {
+        margin: auto;
+    }
+
+
+    .parcours-info {
+        display: none;
+    }
+
+
+    .me-futur {
+        height: 100vh;
+        padding: 2rem;
+
+    }
+
+    .futur-info {
+        display: none;
+    }
+
+    .me-futur .container {
+        display: block;
+        position: relative;
+        height: 100%;
+    }
+
+    .futur-img {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-auto-flow: row;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .card-futur {
+        margin: auto;
+    }
+
+    .me-exp {
+        height: 220vh;
+        padding: 2rem;
+    }
+
+    .div-card {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card {
+        width: 100%;
+        height: 100%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .card-info {
+        display: none;
+    }
+
+    .me-exp-pro {
+        height: 170vh;
+        padding: 2rem;
+    }
+
+    .container-exp-pro{
+        width: 100%;
+        height: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+
+
+    }
+
+    .exp-pro-info {
+        display: none;
+    }
+
+    .exp-pro-view {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        right: 0;
+        gap: 3rem;
+    }
+
+    .card-pro{
+        width: 100%;
+    }
+    .card-pro2{
+        width: 100%;
+        margin: 0;
+    }
+    .card-pro3{
+        width: 100%;
+        margin: 0;
+    }
+    .card-pro4{
+        width: 100%;
+        margin: 0;
+    }
+
+    .profil-cv{
+        margin: 4rem 3.5rem;
+    }
+
+
+    
 
 }
 
@@ -4720,11 +4909,13 @@ footer ul {
 
 
 
+
+
 @media(max-width : 1700px) {
-    .parcours-img {
+    /* .parcours-img {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr;
-    }
+    } */
 
     .card-parcours {
         width: 180px;
@@ -4734,10 +4925,10 @@ footer ul {
         font-size: 0.7rem;
     }
 
-    .futur-img {
+    /* .futur-img {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr;
-    }
+    } */
 
     .card-futur {
         width: 180px;
