@@ -33,7 +33,7 @@ sri.reveal(".vague", { origin: "top", delay: 100 });
 
 let srp = ScrollReveal({
   duration: 2250,
-  distance: "60px",
+  distance: "0px",
 });
 
 srp.reveal(".memario", { origin: "left", delay: 400 });
