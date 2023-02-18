@@ -5071,9 +5071,128 @@ footer ul {
         margin: 2rem auto;
     }
 
+    /*////////// VEUILLE TECH //////////*/
+
+    .VeilleTech{
+        padding: 10rem 2rem 3rem;
+        height: fit-content;
+    }
+
+    .sous-titre-VeilleTech{
+        width: 100%;
+        margin: auto;
+    }
+
+    .heading-VeilleTech{
+        margin: 2rem auto;
+        font-size: 2.5rem;
+    }
+
+    .card-VeilleTech{
+        width: 100%;
+        margin: auto;
+    }
+
+    .contentoutils{
+        align-items: center;
+    }
+
+    #googlealerts{
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .textpro-VeilleTech{
+        font-size: 1rem;
+    }
+
+    .article{
+        padding: 4rem 2rem 6rem;
+        height: fit-content;
+    }
+
+    .article.container{
+        position: relative;
+        height: 100%;
+    }
+
+    .grid-article{
+        position: relative;
+        height: 100%;
+    }
+
+    .card-article{
+        height: 100%;
+    }
+
+    .read_more{
+        margin-top: 2rem;
+    }
+
+    /*////////// Article 1 VT //////////*/
+
+    .page-article{
+        padding: 10rem 2rem 6rem;
+        height: fit-content;
+    }
+
+    .heading-VeilleTech{
+        font-size: 2rem;
+    }
+
+    #article1img{
+        width: 100%;
+        margin: auto;
+    }
+
+    .h2-article3{
+        margin: 9rem auto 2rem;
+    }
+
+    #TimBerners{
+        width: 12rem;
+        margin: 2rem;
+    }
+
+    #myImg{
+        width: 10rem;
+    }
+
+    #web02{
+        width: 12rem;
+    }
+    #web03{
+        width: 12rem;
+    }
+
+    /*////////// Article 2 VT //////////*/
+
+    #IoT{
+        width: 12rem;
+
+    }
+
+    #Iaweb3{
+        width: 12rem;
+
+    }
+
+    #Secu3{
+        width: 12rem;
+
+    }
 
 
+    /*////////// Article 3 VT //////////*/
 
+    #ImgWeb3{
+        width: 12rem;
+    }
+
+    #blockchain{
+        width: 12rem;
+
+    }
     
 
 }
