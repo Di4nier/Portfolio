@@ -12,7 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 
 :root {
@@ -4928,8 +4928,12 @@ footer ul {
         height: 100%;
     }
 
+    .conteudo-geral.caixa--componente-ativo .componente-fundo-imagem{
+        width: 100%;
+    }
+
     .BTS-2{
-        padding: 3rem 2rem;
+        padding: 5rem 2rem 1rem;
 
     }
 
@@ -4965,6 +4969,109 @@ footer ul {
         font-size: 1rem;
         margin: 2rem 1rem;
     }
+
+    /*////////// PROJETS //////////*/
+
+    .ap{
+        padding: 10rem 2rem 3rem;
+        height: 110vh;
+    }
+
+    .sous-titre-ap{
+        width: 100%;
+        margin: auto;
+    }
+
+    .heading-ap{
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    .ap .container{
+        position: relative;
+        height: 100%;
+    }
+
+    .card-ap{
+        height: fit-content;
+        width: 100%;
+        margin: auto;
+    }
+
+    .info-ap{
+        position: relative;
+        height: 100%;
+    }
+
+    .textpro-ap{
+        margin: 2rem auto;
+        font-size: 1rem;
+    }
+
+    .portfolio-bj, .portfolio-ab{
+        font-size: 0.5rem;
+    }
+
+    .conteudo-geral--2{
+        padding: 1rem;
+    }
+
+    .componente--2{
+        height: 100%;
+    }
+
+    .componente-titulo--2{
+        font-size: 0.5rem;
+    }
+
+    #regilogo{
+        width: 5rem;
+    }
+
+    #gsblogo{
+        width: 5rem;
+    }
+
+    #projlogo{
+        width: 5rem;
+    }
+
+    .conteudo-geral--2.caixa--componente-ativo--2 .componente-fundo-imagem--2{
+        width: 100%;
+    }
+
+    .heading-ap.regi-title{
+        margin: 2rem auto;
+    }
+
+    .visitors{
+        width: 100%;
+    }
+
+    .portfolio-bj.reg{
+        left: 0;
+    }
+
+    .ap-2{
+        padding: 4rem 2rem 3rem;
+        height: 100vh;
+    }
+    
+    .sous-titre-ap-2{
+        width: 100%;
+        margin: auto;
+    }
+
+    .heading-ap-2{
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    .textpro-ap-2{
+        margin: 2rem auto;
+    }
+
+
 
 
     
