@@ -12,7 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 :root {
@@ -4157,7 +4157,7 @@ p.date {
 .stages1 {
     padding: 170px 100px 80px 100px;
     width: 100;
-    height: 230vh;
+    height: fit-content;
     overflow: visible;
     position: relative;
 }
@@ -4901,6 +4901,69 @@ footer ul {
     .heading-bts{
         font-size: 1.5rem;
         margin-top: 2rem;
+    }
+
+    #sisricon{
+        width: 4rem;
+        left: 2rem;
+    }
+    #slamicon{
+        width: 4rem;
+        left: 295px;
+    }
+
+    .card-bts{
+        margin: auto;
+    }
+
+    .textpro-bts{
+        margin: 2rem auto;
+    }
+
+    .conteudo-geral{
+        padding: 1rem;
+    }
+
+    .componente{
+        height: 100%;
+    }
+
+    .BTS-2{
+        padding: 3rem 2rem;
+
+    }
+
+    .sous-titre-bts-2{
+        margin: auto;
+        width: 100%;
+    }
+
+    .heading-bts-2{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .BTS-2 .container{
+        position: relative;
+        height: 100%;
+    }
+
+    .BTS-grid-2{
+        position: relative;
+        height: 100%;
+    }
+    .info-BTS-2{
+        position: relative;
+        height: 100%;
+    }
+
+    .card-bts-2{
+        margin: auto;
+    }
+
+    .textpro-bts-2{
+        font-size: 1rem;
+        margin: 2rem 1rem;
     }
 
 
