@@ -5249,35 +5249,63 @@ footer ul {
         font-size: 0.5rem;
     }
 
-    /*////////// STAGE 1 //////////*/
+    /*////////// STAGE 1 / 2 //////////*/
 
     .stages1 {
         padding: 10rem 2rem 6rem;
 
     }
 
-    .logoixcys{
+    .logoixcys {
         width: 18rem;
     }
 
-    .containerbocket{
+    .containerbocket {
         margin: auto;
     }
 
-    .logobocket{
+    .logobocket {
         width: 5rem;
     }
 
 
-    .stage1doc{
-font-size: 0.5rem;
-width: 10rem;
+    .stage1doc {
+        font-size: 0.5rem;
+        width: 10rem;
     }
 
-    .rapportviewer{
+    .rapportviewer {
         margin: 2rem 0rem;
-        width:auto;
+        width: auto;
 
+    }
+
+        /*////////// CONTACT //////////*/
+
+
+    .contact{
+        padding: 10rem 2rem 6rem;
+
+    }
+
+    .sous-titre-contact{
+        width: 100%;
+    }
+
+    .heading-contact{
+        font-size: 2rem;
+    }
+
+    .contact-us{
+        padding: 2rem 2rem 6rem;
+    }
+
+    label, input, textarea{
+        width: 100%;
+    }
+
+    .h3-contact{
+margin: auto;
     }
 }
 
