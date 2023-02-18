@@ -12,7 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 
 :root {
@@ -4233,6 +4233,8 @@ p.date {
 .rapportviewer {
     margin: 2rem;
     box-shadow: 0px 15px 20px #0c0d0d;
+    width: 700px;
+    height: 800px;
 
 }
 
@@ -4842,7 +4844,7 @@ footer ul {
         padding: 2rem;
     }
 
-    .container-exp-pro{
+    .container-exp-pro {
         width: 100%;
         height: 100%;
         grid-template-columns: 1fr;
@@ -4866,318 +4868,325 @@ footer ul {
         gap: 3rem;
     }
 
-    .card-pro{
+    .card-pro {
         width: 100%;
     }
-    .card-pro2{
-        width: 100%;
-        margin: 0;
-    }
-    .card-pro3{
-        width: 100%;
-        margin: 0;
-    }
-    .card-pro4{
+
+    .card-pro2 {
         width: 100%;
         margin: 0;
     }
 
-    .profil-cv{
+    .card-pro3 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .card-pro4 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .profil-cv {
         margin: 4rem 3.5rem;
     }
 
 
     /*////////// BTS SIO //////////*/
 
-    .BTS{
+    .BTS {
         padding: 10rem 2rem;
     }
 
-    .sous-titre-bts{
+    .sous-titre-bts {
         margin: auto;
         width: 100%;
     }
 
-    .heading-bts{
+    .heading-bts {
         font-size: 1.5rem;
         margin-top: 2rem;
     }
 
-    #sisricon{
+    #sisricon {
         width: 4rem;
         left: 2rem;
     }
-    #slamicon{
+
+    #slamicon {
         width: 4rem;
         left: 295px;
     }
 
-    .card-bts{
+    .card-bts {
         margin: auto;
     }
 
-    .textpro-bts{
+    .textpro-bts {
         margin: 2rem auto;
     }
 
-    .conteudo-geral{
+    .conteudo-geral {
         padding: 1rem;
     }
 
-    .componente{
+    .componente {
         height: 100%;
     }
 
-    .conteudo-geral.caixa--componente-ativo .componente-fundo-imagem{
+    .conteudo-geral.caixa--componente-ativo .componente-fundo-imagem {
         width: 100%;
     }
 
-    .BTS-2{
+    .BTS-2 {
         padding: 5rem 2rem 1rem;
 
     }
 
-    .sous-titre-bts-2{
+    .sous-titre-bts-2 {
         margin: auto;
         width: 100%;
     }
 
-    .heading-bts-2{
+    .heading-bts-2 {
         font-size: 1.5rem;
         margin-top: 2rem;
     }
 
-    .BTS-2 .container{
+    .BTS-2 .container {
         position: relative;
         height: 100%;
     }
 
-    .BTS-grid-2{
-        position: relative;
-        height: 100%;
-    }
-    .info-BTS-2{
+    .BTS-grid-2 {
         position: relative;
         height: 100%;
     }
 
-    .card-bts-2{
+    .info-BTS-2 {
+        position: relative;
+        height: 100%;
+    }
+
+    .card-bts-2 {
         margin: auto;
     }
 
-    .textpro-bts-2{
+    .textpro-bts-2 {
         font-size: 1rem;
         margin: 2rem 1rem;
     }
 
     /*////////// PROJETS //////////*/
 
-    .ap{
+    .ap {
         padding: 10rem 2rem 3rem;
         height: 110vh;
     }
 
-    .sous-titre-ap{
+    .sous-titre-ap {
         width: 100%;
         margin: auto;
     }
 
-    .heading-ap{
+    .heading-ap {
         font-size: 2rem;
         margin-top: 2rem;
     }
 
-    .ap .container{
+    .ap .container {
         position: relative;
         height: 100%;
     }
 
-    .card-ap{
+    .card-ap {
         height: fit-content;
         width: 100%;
         margin: auto;
     }
 
-    .info-ap{
+    .info-ap {
         position: relative;
         height: 100%;
     }
 
-    .textpro-ap{
+    .textpro-ap {
         margin: 2rem auto;
         font-size: 1rem;
     }
 
-    .portfolio-bj, .portfolio-ab{
+    .portfolio-bj,
+    .portfolio-ab {
         font-size: 0.5rem;
     }
 
-    .conteudo-geral--2{
+    .conteudo-geral--2 {
         padding: 1rem;
     }
 
-    .componente--2{
+    .componente--2 {
         height: 100%;
     }
 
-    .componente-titulo--2{
+    .componente-titulo--2 {
         font-size: 0.5rem;
     }
 
-    #regilogo{
+    #regilogo {
         width: 5rem;
     }
 
-    #gsblogo{
+    #gsblogo {
         width: 5rem;
     }
 
-    #projlogo{
+    #projlogo {
         width: 5rem;
     }
 
-    .conteudo-geral--2.caixa--componente-ativo--2 .componente-fundo-imagem--2{
+    .conteudo-geral--2.caixa--componente-ativo--2 .componente-fundo-imagem--2 {
         width: 100%;
     }
 
-    .heading-ap.regi-title{
+    .heading-ap.regi-title {
         margin: 2rem auto;
     }
 
-    .visitors{
+    .visitors {
         width: 100%;
     }
 
-    .portfolio-bj.reg{
+    .portfolio-bj.reg {
         left: 0;
     }
 
-    .ap-2{
+    .ap-2 {
         padding: 4rem 2rem 3rem;
         height: 100vh;
     }
-    
-    .sous-titre-ap-2{
+
+    .sous-titre-ap-2 {
         width: 100%;
         margin: auto;
     }
 
-    .heading-ap-2{
+    .heading-ap-2 {
         font-size: 2rem;
         margin-top: 2rem;
     }
 
-    .textpro-ap-2{
+    .textpro-ap-2 {
         margin: 2rem auto;
     }
 
     /*////////// VEUILLE TECH //////////*/
 
-    .VeilleTech{
+    .VeilleTech {
         padding: 10rem 2rem 3rem;
         height: fit-content;
     }
 
-    .sous-titre-VeilleTech{
+    .sous-titre-VeilleTech {
         width: 100%;
         margin: auto;
     }
 
-    .heading-VeilleTech{
+    .heading-VeilleTech {
         margin: 2rem auto;
         font-size: 2.5rem;
     }
 
-    .card-VeilleTech{
+    .card-VeilleTech {
         width: 100%;
         margin: auto;
     }
 
-    .contentoutils{
+    .contentoutils {
         align-items: center;
     }
 
-    #googlealerts{
+    #googlealerts {
         width: 7rem;
         height: 7rem;
     }
 
-    .textpro-VeilleTech{
+    .textpro-VeilleTech {
         font-size: 1rem;
     }
 
-    .article{
+    .article {
         padding: 4rem 2rem 6rem;
         height: fit-content;
     }
 
-    .article.container{
+    .article.container {
         position: relative;
         height: 100%;
     }
 
-    .grid-article{
+    .grid-article {
         position: relative;
         height: 100%;
     }
 
-    .card-article{
+    .card-article {
         height: 100%;
     }
 
-    .read_more{
+    .read_more {
         margin-top: 2rem;
     }
 
     /*////////// Article 1 VT //////////*/
 
-    .page-article{
+    .page-article {
         padding: 10rem 2rem 6rem;
         height: fit-content;
     }
 
-    .heading-VeilleTech{
+    .heading-VeilleTech {
         font-size: 2rem;
     }
 
-    #article1img{
+    #article1img {
         width: 100%;
         margin: auto;
     }
 
-    .h2-article3{
+    .h2-article3 {
         margin: 9rem auto 2rem;
     }
 
-    #TimBerners{
+    #TimBerners {
         width: 12rem;
         margin: 2rem;
     }
 
-    #myImg{
+    #myImg {
         width: 10rem;
     }
 
-    #web02{
+    #web02 {
         width: 12rem;
     }
-    #web03{
+
+    #web03 {
         width: 12rem;
     }
 
     /*////////// Article 2 VT //////////*/
 
-    #IoT{
+    #IoT {
         width: 12rem;
 
     }
 
-    #Iaweb3{
+    #Iaweb3 {
         width: 12rem;
 
     }
 
-    #Secu3{
+    #Secu3 {
         width: 12rem;
 
     }
@@ -5185,16 +5194,91 @@ footer ul {
 
     /*////////// Article 3 VT //////////*/
 
-    #ImgWeb3{
+    #ImgWeb3 {
         width: 12rem;
     }
 
-    #blockchain{
+    #blockchain {
         width: 12rem;
 
     }
-    
 
+
+
+    /*////////// STAGES //////////*/
+
+    .stages {
+        padding: 10rem 2rem 6rem;
+        height: fit-content;
+    }
+
+    .sous-titre-stages {
+        width: 100%;
+        margin: auto;
+    }
+
+    .heading-stages {
+        font-size: 2rem;
+        margin: 2rem auto;
+    }
+
+    .card-stages {
+        width: 100%;
+    }
+
+    .stage-1 {
+        padding: 3rem 2rem 1rem;
+        height: 40vh;
+    }
+
+    .sous-titre-stage-1 {
+        width: 100%;
+    }
+
+    .stage-name-1 {
+        margin: 2rem 0rem;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .stage1 {
+        font-size: 0.5rem;
+    }
+
+    .stage2 {
+        font-size: 0.5rem;
+    }
+
+    /*////////// STAGE 1 //////////*/
+
+    .stages1 {
+        padding: 10rem 2rem 6rem;
+
+    }
+
+    .logoixcys{
+        width: 18rem;
+    }
+
+    .containerbocket{
+        margin: auto;
+    }
+
+    .logobocket{
+        width: 5rem;
+    }
+
+
+    .stage1doc{
+font-size: 0.5rem;
+width: 10rem;
+    }
+
+    .rapportviewer{
+        margin: 2rem 0rem;
+        width:auto;
+
+    }
 }
 
 
