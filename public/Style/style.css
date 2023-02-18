@@ -12,7 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 
 :root {
@@ -4884,6 +4884,23 @@ footer ul {
 
     .profil-cv{
         margin: 4rem 3.5rem;
+    }
+
+
+    /*////////// BTS SIO //////////*/
+
+    .BTS{
+        padding: 10rem 2rem;
+    }
+
+    .sous-titre-bts{
+        margin: auto;
+        width: 100%;
+    }
+
+    .heading-bts{
+        font-size: 1.5rem;
+        margin-top: 2rem;
     }
 
 
