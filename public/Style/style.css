@@ -12,7 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 :root {
@@ -597,6 +597,7 @@ section.vague ::before {
     bottom: 0rem;
     left: 50%;
     transform: translateX(-50%);
+    filter: drop-shadow(10px 0px 8px #000);
 }
 
 .invader {
@@ -3192,7 +3193,7 @@ section.vague ::before {
 .ap-2 {
     padding: 80px 100px 80px 100px;
     width: 100;
-    height: 100vh;
+    height: 70vh;
     overflow: visible;
     position: relative;
 }
@@ -3251,6 +3252,422 @@ section.vague ::before {
 
 
 
+/* SLIDER 3 */
+
+
+.conteudo-geral--3 {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    padding: 80px 70px;
+}
+
+.componente-interno-geral--3 {
+    position: relative;
+    height: 100%;
+}
+
+.componente-interno-geral--3:hover .componente-fundo-imagem--3:after {
+    opacity: 1;
+}
+
+.componente--3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 24.05%;
+    height: 90%;
+    background: #252525;
+    transition: transform 0.6s 0.7s, width 0.7s, opacity 0.6s 0.7s,
+        z-index 0s 1.3s;
+    will-change: transform, width, opacity;
+    box-shadow: 0px 15px 20px #0c0d0d;
+
+}
+
+.componente--3:not(.caixa-conteudo-ativo--3) {
+    cursor: pointer;
+}
+
+.componente-sem-rolagem--3 {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+
+.componente-interno--3 {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    transition: transform 1s;
+}
+
+.conteudo-geral--3.js-conteudo-geral--3 .componente-interno--3 {
+    transform: translate3d(0, 100%, 0);
+}
+
+.componente-fundo-imagem--3 {
+    position: relative;
+    height: 100%;
+    transition: transform 0.6s 0.7s;
+    will-change: transform;
+}
+
+.conteudo-geral--3.caixa--componente-ativo--3 .componente-fundo-imagem--3 {
+    width: calc(100vw - 140px);
+}
+
+.componente-fundo-imagem--3:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -5%;
+    width: 100%;
+    height: 110%;
+    background-size: cover;
+    background-position: center center;
+    transition: transform 1s;
+    transform: translate3d(0, 0, 0) scale(1);
+}
+
+.conteudo-geral--3.js-conteudo-geral--3 .componente-fundo-imagem--3:before {
+    transform: translate3d(0, -100%, 0) scale(1.2);
+}
+
+.componente--3.caixa-conteudo-ativo--3 .componente-fundo-imagem--3:before {
+    transition: transform 0.8s;
+}
+
+.componente-fundo-imagem--3:after {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.conteudo-geral--3.caixa--componente-ativo--3 .componente-fundo-imagem--3:after {
+    transition: opacity 0.5s 1.4s;
+    opacity: 1 !important;
+}
+
+.componente-visual-inicial--3 {
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s 1.2s;
+}
+
+.conteudo-geral--3.js-conteudo-geral--3 .componente-visual-inicial--3 {
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+.conteudo-geral--3.caixa--componente-ativo--3 .componente-visual-inicial--3 {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.5s;
+}
+
+.componente-titulo--3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 100%;
+}
+
+.componente-content--3 {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.1s;
+}
+
+.componente--3.caixa-conteudo-ativo--3 .componente-content--3 {
+    z-index: 2;
+    opacity: 1;
+    pointer-events: auto;
+    transition: all 0.5s 1.4s;
+}
+
+.componente-text--3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: "Tapestry";
+}
+
+.componente-botao-fechar--3 {
+    z-index: -1;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 60px;
+    height: 60px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0s 0.45s;
+    cursor: pointer;
+}
+
+.componente--3.caixa-conteudo-ativo--3 .componente-botao-fechar--3{
+    z-index: 5;
+    opacity: 1;
+    pointer-events: auto;
+    transition: all 0s 1.4s;
+}
+
+.componente-botao-fechar--3:before,
+.componente-botao-fechar--3:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 8px;
+    margin-top: -4px;
+    background: #fff;
+    opacity: 0;
+    transition: opacity 0s;
+}
+
+.componente--3.caixa-conteudo-ativo--3 .componente-botao-fechar--3:before,
+.componente--3.caixa-conteudo-ativo--3 .componente-botao-fechar--3:after {
+    opacity: 1;
+}
+
+.componente-botao-fechar--3:before {
+    transform: rotate(45deg) translateX(100%);
+}
+
+.componente--3.caixa-conteudo-ativo--3 .componente-botao-fechar--3:before {
+    transition: all 0.3s 1.4s cubic-bezier(0.72, 0.09, 0.32, 1.57);
+    transform: rotate(45deg) translateX(0);
+}
+
+.componente-botao-fechar--3:after {
+    transform: rotate(-45deg) translateX(100%);
+}
+
+.componente--3.caixa-conteudo-ativo--3 .componente-botao-fechar--3:after {
+    transition: all 0.3s 1.55s cubic-bezier(0.72, 0.09, 0.32, 1.57);
+    transform: rotate(-45deg) translateX(0);
+}
+
+.componente-index--3 {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    min-height: 250px;
+    text-align: center;
+    font-size: 20vw;
+    line-height: 0.85;
+    font-weight: bold;
+    transition: transform 0.5s, opacity 0.3s 1.4s;
+    transform: translate3d(0, 1vw, 0);
+}
+
+.componente--3:hover .componente-index--3 {
+    transform: translate3d(0, 0, 0);
+}
+
+.conteudo-geral--3.caixa--componente-ativo--3 .componente-index--3 {
+    transition: transform 0.5s, opacity 0.3s;
+    opacity: 0;
+}
+
+.componente-index-back--3,
+.componente-index-front--3 {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 100%;
+    font-size: 5%;
+}
+
+#regilogo {
+    border-radius: 50%;
+    width: 7rem;
+}
+
+#gsblogo {
+    width: 10rem;
+}
+
+#projlogo {
+    width: 7rem;
+}
+
+.componente-index-back--3 {
+    color: #2f3840;
+    opacity: 0;
+    transition: opacity 0.25s 0.25s;
+}
+
+.componente--3:hover .componente-index-back--3 {
+    transition: opacity 0.25s;
+    opacity: 1;
+}
+
+.componente-index-overlay--3 {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    transform: translate3d(0, 100%, 0);
+    transition: transform 0.5s 0.1s;
+    color: transparent;
+}
+
+.componente-index-overlay--3:before {
+    content: attr(data-index);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    transform: translate3d(0, -100%, 0);
+    transition: transform 0.5s 0.1s;
+}
+
+.componente--3:hover .componente-index-overlay--3 {
+    transform: translate3d(0, 0, 0);
+}
+
+.componente--3:hover .componente-index-overlay--3:before {
+    transform: translate3d(0, 0, 0);
+}
+
+.componente--3:nth-child(1) {
+    transform: translate3d(0%, 0, 0);
+    transform-origin: 50% 50%;
+}
+
+.conteudo-geral--3.caixa--componente-ativo--3 .componente--3:nth-child(1):not(.caixa-conteudo-ativo--3) {
+    transform: scale(0.5) translate3d(0%, 0, 0);
+    opacity: 0;
+    transition: transform 0.95s, opacity 0.95s;
+}
+
+.componente--3:nth-child(1) .componente-interno--3 {
+    transition-delay: 0s;
+}
+
+.componente--3:nth-child(1) .componente-fundo-imagem--3 {
+    transform: translate3d(0%, 0, 0);
+}
+
+.componente--3:nth-child(1) .componente-fundo-imagem--3:before {
+    transition-delay: 0s;
+    background-image: url("../Images/Ap/PeligrooWeyBack.png");
+}
+
+.componente--3:nth-child(2) {
+    transform: translate3d(105.2083333333%, 0, 0);
+    transform-origin: 155.2083333333% 50%;
+}
+
+.conteudo-geral--3.caixa--componente-ativo--3 .componente--3:nth-child(2):not(.caixa-conteudo-ativo--3) {
+    transform: scale(0.5) translate3d(105.2083333333%, 0, 0);
+    opacity: 0;
+    transition: transform 0.95s, opacity 0.95s;
+}
+
+.componente--3:nth-child(2) .componente-interno--3 {
+    transition-delay: 0.1s;
+}
+
+.componente--3:nth-child(2) .componente-fundo-imagem--3:before {
+    transition-delay: 0.1s;
+    background-image: url("../Images/Ap/train.JPG");
+}
+
+.componente--3:nth-child(3) {
+    transform: translate3d(210.4166666667%, 0, 0);
+    transform-origin: 260.4166666667% 50%;
+}
+
+.conteudo-geral--3.caixa--componente-ativo--3 .componente--3:nth-child(3):not(.caixa-conteudo-ativo--3) {
+    transform: scale(0.5) translate3d(210.4166666667%, 0, 0);
+    opacity: 0;
+    transition: transform 0.95s, opacity 0.95s;
+}
+
+.componente--3:nth-child(3) .componente-interno--3 {
+    transition-delay: 0.2s;
+}
+
+.componente--3:nth-child(3) .componente-fundo-imagem--3:before {
+    transition-delay: 0.2s;
+    background-image: url("../Images/Ap/backportfolio.png");
+}
+
+.componente--3:nth-child(4) {
+    transform: translate3d(315.625%, 0, 0);
+    transform-origin: 365.625% 50%;
+}
+
+.conteudo-geral--3.caixa--componente-ativo--3 .componente--3:nth-child(4):not(.caixa-conteudo-ativo--3) {
+    transform: scale(0.5) translate3d(315.625%, 0, 0);
+    opacity: 0;
+    transition: transform 0.95s, opacity 0.95s;
+}
+
+.componente--3:nth-child(4) .componente-interno--3 {
+    transition-delay: 0.3s;
+}
+
+.componente--3:nth-child(4) .componente-fundo-imagem--3:before {
+    transition-delay: 0.3s;
+    background-image: url("../Images/Ap/projetx.jpg");
+}
+
+.componente--3:hover .componente-fundo-imagem--3:after {
+    opacity: 0;
+}
+
+.componente--3.caixa-conteudo-ativo--3 {
+    z-index: 1;
+    width: 100%;
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.6s, width 0.7s 0.7s, z-index 0s;
+}
+
+.componente--3.caixa-conteudo-ativo--3 .componente-fundo-imagem--3 {
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.6s;
+}
+
+.componente--3.caixa-conteudo-ativo--3 .componente-fundo-imagem--3:before {
+    transition-delay: 0.6s;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1120px) {
+    .componente-titulo--3 {
+        font-size: 1rem;
+    }
+}
 
 
 

@@ -140,6 +140,36 @@ $botoesDeFechar2.forEach(function ($btn2) {
   });
 });
 
+/* -------------- SLIDER 3 ----------------*/
+
+var $conteudoGeral3 = document.querySelector(".conteudo-geral--3");
+var $conteudoEmArray3 = [].slice.call(document.querySelectorAll(".componente--3"));
+var $botoesDeFechar3 = [].slice.call(
+  document.querySelectorAll(".componente-botao-fechar--3")
+);
+
+setTimeout(function () {
+  $conteudoGeral3.classList.remove("js-conteudo-geral--3");
+}, 200);
+
+$conteudoEmArray3.forEach(function ($componente3) {
+  $componente3.addEventListener("click", function () {
+    if (this.classList.contains("caixa-conteudo-ativo--3")) return;
+    $conteudoGeral3.classList.add("caixa--componente-ativo--3");
+    this.classList.add("caixa-conteudo-ativo--3");
+  });
+});
+
+$botoesDeFechar3.forEach(function ($btn3) {
+  $btn3.addEventListener("click", function (e3) {
+    e3.stopPropagation();
+    $conteudoGeral3.classList.remove("caixa--componente-ativo--3");
+    document
+      .querySelector(".componente--3.caixa-conteudo-ativo--3")
+      .classList.remove("caixa-conteudo-ativo--3");
+  });
+});
+
 /* -------------- MOODALLLLLL ----------------*/
 
 
