@@ -5496,6 +5496,21 @@ footer ul {
         margin: 2rem auto;
     }
 
+    .conteudo-geral--3 {
+        padding: 1rem;
+    }
+
+    .componente--3 {
+        height: 100%;
+    }
+
+    .componente-titulo--3 {
+        font-size: 0.5rem;
+    }
+    .conteudo-geral--3.caixa--componente-ativo--3 .componente-fundo-imagem--3 {
+        width: 100%;
+    }
+
     /*////////// VEUILLE TECH //////////*/
 
     .VeilleTech {
