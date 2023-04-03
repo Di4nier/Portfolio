@@ -4574,7 +4574,7 @@ p.date {
 .stages1 {
     padding: 170px 100px 80px 100px;
     width: 100;
-    height: 230vh;
+    height: fit-content;
     overflow: visible;
     position: relative;
 }
@@ -4650,6 +4650,8 @@ p.date {
 .rapportviewer {
     margin: 2rem;
     box-shadow: 0px 15px 20px #0c0d0d;
+    width: 700px;
+    height: 800px;
 
 }
 
@@ -5259,7 +5261,7 @@ footer ul {
         padding: 2rem;
     }
 
-    .container-exp-pro{
+    .container-exp-pro {
         width: 100%;
         height: 100%;
         grid-template-columns: 1fr;
@@ -5283,46 +5285,445 @@ footer ul {
         gap: 3rem;
     }
 
-    .card-pro{
+    .card-pro {
         width: 100%;
     }
-    .card-pro2{
-        width: 100%;
-        margin: 0;
-    }
-    .card-pro3{
-        width: 100%;
-        margin: 0;
-    }
-    .card-pro4{
+
+    .card-pro2 {
         width: 100%;
         margin: 0;
     }
 
-    .profil-cv{
+    .card-pro3 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .card-pro4 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .profil-cv {
         margin: 4rem 3.5rem;
     }
 
 
     /*////////// BTS SIO //////////*/
 
-    .BTS{
+    .BTS {
         padding: 10rem 2rem;
     }
 
-    .sous-titre-bts{
+    .sous-titre-bts {
         margin: auto;
         width: 100%;
     }
 
-    .heading-bts{
+    .heading-bts {
         font-size: 1.5rem;
         margin-top: 2rem;
     }
 
+    #sisricon {
+        width: 4rem;
+        left: 2rem;
+    }
 
-    
+    #slamicon {
+        width: 4rem;
+        left: 295px;
+    }
 
+    .card-bts {
+        margin: auto;
+    }
+
+    .textpro-bts {
+        margin: 2rem auto;
+    }
+
+    .conteudo-geral {
+        padding: 1rem;
+    }
+
+    .componente {
+        height: 100%;
+    }
+
+    .conteudo-geral.caixa--componente-ativo .componente-fundo-imagem {
+        width: 100%;
+    }
+
+    .BTS-2 {
+        padding: 5rem 2rem 1rem;
+
+    }
+
+    .sous-titre-bts-2 {
+        margin: auto;
+        width: 100%;
+    }
+
+    .heading-bts-2 {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .BTS-2 .container {
+        position: relative;
+        height: 100%;
+    }
+
+    .BTS-grid-2 {
+        position: relative;
+        height: 100%;
+    }
+
+    .info-BTS-2 {
+        position: relative;
+        height: 100%;
+    }
+
+    .card-bts-2 {
+        margin: auto;
+    }
+
+    .textpro-bts-2 {
+        font-size: 1rem;
+        margin: 2rem 1rem;
+    }
+
+    /*////////// PROJETS //////////*/
+
+    .ap {
+        padding: 10rem 2rem 3rem;
+        height: 110vh;
+    }
+
+    .sous-titre-ap {
+        width: 100%;
+        margin: auto;
+    }
+
+    .heading-ap {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    .ap .container {
+        position: relative;
+        height: 100%;
+    }
+
+    .card-ap {
+        height: fit-content;
+        width: 100%;
+        margin: auto;
+    }
+
+    .info-ap {
+        position: relative;
+        height: 100%;
+    }
+
+    .textpro-ap {
+        margin: 2rem auto;
+        font-size: 1rem;
+    }
+
+    .portfolio-bj,
+    .portfolio-ab {
+        font-size: 0.5rem;
+    }
+
+    .conteudo-geral--2 {
+        padding: 1rem;
+    }
+
+    .componente--2 {
+        height: 100%;
+    }
+
+    .componente-titulo--2 {
+        font-size: 0.5rem;
+    }
+
+    #regilogo {
+        width: 5rem;
+    }
+
+    #gsblogo {
+        width: 5rem;
+    }
+
+    #projlogo {
+        width: 5rem;
+    }
+
+    .conteudo-geral--2.caixa--componente-ativo--2 .componente-fundo-imagem--2 {
+        width: 100%;
+    }
+
+    .heading-ap.regi-title {
+        margin: 2rem auto;
+    }
+
+    .visitors {
+        width: 100%;
+    }
+
+    .portfolio-bj.reg {
+        left: 0;
+    }
+
+    .ap-2 {
+        padding: 4rem 2rem 3rem;
+        height: 100vh;
+    }
+
+    .sous-titre-ap-2 {
+        width: 100%;
+        margin: auto;
+    }
+
+    .heading-ap-2 {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    .textpro-ap-2 {
+        margin: 2rem auto;
+    }
+
+    /*////////// VEUILLE TECH //////////*/
+
+    .VeilleTech {
+        padding: 10rem 2rem 3rem;
+        height: fit-content;
+    }
+
+    .sous-titre-VeilleTech {
+        width: 100%;
+        margin: auto;
+    }
+
+    .heading-VeilleTech {
+        margin: 2rem auto;
+        font-size: 2.5rem;
+    }
+
+    .card-VeilleTech {
+        width: 100%;
+        margin: auto;
+    }
+
+    .contentoutils {
+        align-items: center;
+    }
+
+    #googlealerts {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .textpro-VeilleTech {
+        font-size: 1rem;
+    }
+
+    .article {
+        padding: 4rem 2rem 6rem;
+        height: fit-content;
+    }
+
+    .article.container {
+        position: relative;
+        height: 100%;
+    }
+
+    .grid-article {
+        position: relative;
+        height: 100%;
+    }
+
+    .card-article {
+        height: 100%;
+    }
+
+    .read_more {
+        margin-top: 2rem;
+    }
+
+    /*////////// Article 1 VT //////////*/
+
+    .page-article {
+        padding: 10rem 2rem 6rem;
+        height: fit-content;
+    }
+
+    .heading-VeilleTech {
+        font-size: 2rem;
+    }
+
+    #article1img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .h2-article3 {
+        margin: 9rem auto 2rem;
+    }
+
+    #TimBerners {
+        width: 12rem;
+        margin: 2rem;
+    }
+
+    #myImg {
+        width: 10rem;
+    }
+
+    #web02 {
+        width: 12rem;
+    }
+
+    #web03 {
+        width: 12rem;
+    }
+
+    /*////////// Article 2 VT //////////*/
+
+    #IoT {
+        width: 12rem;
+
+    }
+
+    #Iaweb3 {
+        width: 12rem;
+
+    }
+
+    #Secu3 {
+        width: 12rem;
+
+    }
+
+
+    /*////////// Article 3 VT //////////*/
+
+    #ImgWeb3 {
+        width: 12rem;
+    }
+
+    #blockchain {
+        width: 12rem;
+
+    }
+
+
+
+    /*////////// STAGES //////////*/
+
+    .stages {
+        padding: 10rem 2rem 6rem;
+        height: fit-content;
+    }
+
+    .sous-titre-stages {
+        width: 100%;
+        margin: auto;
+    }
+
+    .heading-stages {
+        font-size: 2rem;
+        margin: 2rem auto;
+    }
+
+    .card-stages {
+        width: 100%;
+    }
+
+    .stage-1 {
+        padding: 3rem 2rem 1rem;
+        height: 40vh;
+    }
+
+    .sous-titre-stage-1 {
+        width: 100%;
+    }
+
+    .stage-name-1 {
+        margin: 2rem 0rem;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .stage1 {
+        font-size: 0.5rem;
+    }
+
+    .stage2 {
+        font-size: 0.5rem;
+    }
+
+    /*////////// STAGE 1 / 2 //////////*/
+
+    .stages1 {
+        padding: 10rem 2rem 6rem;
+
+    }
+
+    .logoixcys {
+        width: 18rem;
+    }
+
+    .containerbocket {
+        margin: auto;
+    }
+
+    .logobocket {
+        width: 5rem;
+    }
+
+
+    .stage1doc {
+        font-size: 0.5rem;
+        width: 10rem;
+    }
+
+    .rapportviewer {
+        margin: 2rem 0rem;
+        width: auto;
+
+    }
+
+        /*////////// CONTACT //////////*/
+
+
+    .contact{
+        padding: 10rem 2rem 6rem;
+
+    }
+
+    .sous-titre-contact{
+        width: 100%;
+    }
+
+    .heading-contact{
+        font-size: 2rem;
+    }
+
+    .contact-us{
+        padding: 2rem 2rem 6rem;
+    }
+
+    label, input, textarea{
+        width: 100%;
+    }
+
+    .h3-contact{
+margin: auto;
+    }
 }
 
 

@@ -27,6 +27,7 @@
         <div class="portfolio">
             <span>Portfolio</span> - Villanueva Diego
         </div>
+        <button id="menuaction" class="burger-action"><img src="../../../Images/burger.svg" alt="burgerimg" class="burger-menu" id="burgermenuimg"></button>
 
         <nav class="container">
             <div class="links">
@@ -59,6 +60,18 @@
     </header>
 
     <main>
+
+        <div id="menu" class="MenuClosed">
+            <div class="menucontainer">
+                <a class="menu-content" href="../../../">Accueil</a>
+                <a class="menu-content" href="../../Profil/">Profil</a>
+                <a class="menu-content" href="../../BTSSIO/">BTS SIO</a>
+                <a class="menu-content" href="../../AteliersPerso/"  >Projets</a>
+                <a class="menu-content" href="../../VeilleTech/">Veille Technologique</a>
+                <a class="menu-content" href="../../Stages/" id="active">Stages</a>
+                <a class="menu-content" href="../../Contact/">Contact</a>
+            </div>
+        </div>
         <section class="stages1">
             <div class="container">
                 <div class="grid-stages">
@@ -94,7 +107,7 @@
                                 <img src="../../../Images/stage/bocket.png" alt="Logo bocket" class="logobocket">
                                 <a href="../../../Fichiers/RapportdeStageIXCYS_compressed.pdf" download="RapportDeStageIXCYS1" class="stage1doc">Télécharger le Compte-rendu du stage</a>
                             </div>
-                            <embed src="../../../Fichiers/RapportdeStageIXCYS_compressed.pdf" width="700" height="800" type="application/pdf" class="rapportviewer"/>
+                            <embed src="../../../Fichiers/RapportdeStageIXCYS_compressed.pdf" type="application/pdf" class="rapportviewer"/>
 
                         </div>
                     </div>
@@ -150,6 +163,8 @@
     </footer>
     <!-- -- JavaScripts -- -->
     <script src="../../../Style/style.js"></script>
+    <script src="../../../Services/MenuMobile.js"></script>
+
 </body>
 
 </html>

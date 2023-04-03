@@ -27,7 +27,7 @@
         <div class="portfolio">
             <span>Portfolio</span> - Villanueva Diego
         </div>
-
+        <button id="menuaction" class="burger-action"><img src="../../Images/burger.svg" alt="burgerimg" class="burger-menu" id="burgermenuimg"></button>
         <nav class="container">
             <div class="links">
                 <ul>
@@ -60,6 +60,18 @@
     </header>
 
     <main>
+
+        <div id="menu" class="MenuClosed">
+            <div class="menucontainer">
+                <a class="menu-content" href="../../">Accueil</a>
+                <a class="menu-content" href="../Profil/">Profil</a>
+                <a class="menu-content" href="../BTSSIO/">BTS SIO</a>
+                <a class="menu-content" href="../AteliersPerso/"  >Projets</a>
+                <a class="menu-content" href="../VeilleTech/">Veille Technologique</a>
+                <a class="menu-content" href="../Stages/">Stages</a>
+                <a class="menu-content" href="../Contact/" id="active">Contact</a>
+            </div>
+        </div>
         <section class="contact">
             <div class="container">
                 <div class="grid-contact">
@@ -83,8 +95,8 @@
                 <h3 class="h3-contact">
                     Dis moi tout les détails de ta requête !
                 </h3>
-                <label for="spamProtection">Protection contre le spam <em>&#x2a; </em><span
-                        class="span-contact">&nbsp;&nbsp;&nbsp;&nbsp;Quel est le jour qui prècéde le 11 juillet
+                <label for="spamProtection">Protection contre le spam <em>&#x2a; </em></br><span
+                        class="span-contact">Quel est le jour qui prècéde le 11 juillet
                         ?</span></label><input id="spamProtection" name="spamProtection" type="text" /><button class="button-contact"
                     id="customerOrder">Envoyer</button>
             </form>
@@ -138,7 +150,7 @@
 
     <!-- -- JavaScripts -- -->
     <script src="../../Style/style.js"></script>
-    <script src="../../Services/EnvoieMail.js"></script>
+    <script src="../../Services/MenuMobile.js"></script>
 
 </body>
 

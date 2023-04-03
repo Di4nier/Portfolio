@@ -60,7 +60,7 @@ srb.reveal("#sisricon", { origin: "right", delay: 1000 });
 /* AP */
 
 sri.reveal(".ap", { origin: "top", delay: 400 });
-sri.reveal(".conteudo-geral--2", { origin: "right", delay: 200 });
+sri.reveal(".conteudo-geral--2", { origin: "bottom", delay: 1000 });
 sri.reveal(".ap-2", { origin: "bottom", delay: 500 });
 
 /* VT */
