@@ -3860,10 +3860,12 @@ section.vague ::before {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 3%;
-    margin: 5% 0;
+    margin: 0 0 10% 0;
 }
 
 .card-article {
+    height: 100%;
+    position: relative;
     overflow: hidden;
     padding: 30px 20px;
     background-color: #FFF;
@@ -3925,8 +3927,14 @@ p.date {
     font-style: italic;
 }
 
+
+
 .read_more {
-    position: relative;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    left: 0;
+    bottom: -1.5rem;
     padding: 1em 2em;
     font-size: 12px;
     text-transform: uppercase;
@@ -5549,6 +5557,7 @@ footer ul {
     .article {
         padding: 4rem 2rem 6rem;
         height: fit-content;
+        margin: 0 0 60% 0;
     }
 
     .article.container {
@@ -5559,14 +5568,16 @@ footer ul {
     .grid-article {
         position: relative;
         height: 100%;
+        margin: 0 0 10% 0;
     }
 
     .card-article {
-        height: 100%;
+        height: 105%;
     }
 
     .read_more {
-        margin-top: 2rem;
+        position: absolute;
+        bottom: -1rem;
     }
 
     /*////////// Article 1 VT //////////*/
