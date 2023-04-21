@@ -9,7 +9,7 @@ customerOrder.addEventListener("click", function () {
     if (prenom == "" || email == "" || msg == "" || securite == "") {
         alert("Veuillez complétéz les champs avec le * !");
     } else {
-        alert("Message Envoyé avec succès !");
+        alert("Envoyez moi un mail : diego.pro.villanueva@gmail.com");
     }
 });
 
